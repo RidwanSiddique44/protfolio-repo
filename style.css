@@ -1,0 +1,184 @@
+body {
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+}
+
+
+.orange-color {
+    color: orangered;
+}
+
+#welcome {
+    background-image: url(./Resources/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 20px;
+    background-image: linear-gradient(orange, red);
+    border-radius: 3px;
+}
+
+div img {
+    width: 80%;
+}
+
+.halfw {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.same {
+    display: flex;
+
+}
+
+#dream {
+    background-image: url(./Resources/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#not-same {
+    display: flex;
+    background-image: url(./Resources/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 50px;
+}
+
+#hh {
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 81, 0), rgb(255, 187, 0));
+    border-image-slice: 1;
+    padding: 20px;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(55, 0, 255), rgb(0, 183, 255));
+    border-image-slice: 1;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(51, 5, 70);
+    color: white;
+    padding-bottom: 5px;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+
+    .nav {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navlink {
+        margin-right: 25px;
+    }
+
+    .sign {
+        margin-right: 25px;
+    }
+
+
+    #welcome {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+
+    }
+
+    .orange-color {
+        margin-bottom: 0px;
+        padding: 0%;
+    }
+
+    .uni {
+        margin-top: 0px;
+        padding: 0%;
+    }
+
+    #dream {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lastSec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #not-same {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hh {
+        margin-right: 70px;
+    }
+
+    #full {
+        margin-bottom: 30px;
+    }
+
+    div img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+}
