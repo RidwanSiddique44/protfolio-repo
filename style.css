@@ -118,11 +118,13 @@ footer {
     }
 
     .navlink {
-        margin-right: 25px;
+        /* margin-right: 25px;
+        margin-left: 0%; */
+        width: 100%;
     }
 
     .sign {
-        margin-right: 25px;
+        visibility: hidden;
     }
 
 
