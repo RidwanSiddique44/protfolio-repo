@@ -12,6 +12,10 @@ body {
     top: 0%;
 }
 
+.sign {
+    margin-right: 30px;
+}
+
 
 .orange-color {
     color: orangered;
@@ -112,7 +116,7 @@ footer {
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
 
     }
@@ -123,10 +127,22 @@ footer {
         width: 100%;
     }
 
-    .sign {
-        visibility: hidden;
+    .navlink ul {
+        padding-left: 0%;
+        display: flex;
+        justify-content: space-evenly;
     }
 
+    .sign {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .sign ul {
+        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
 
     #welcome {
         display: flex;
@@ -134,7 +150,14 @@ footer {
         justify-content: center;
         align-items: center;
         margin-left: 0px;
+        width: 100%;
 
+    }
+
+    .halfw {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .orange-color {
@@ -152,6 +175,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .lastSec {
@@ -166,6 +190,12 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .exp {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #hh {
